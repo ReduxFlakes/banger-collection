@@ -1,5 +1,5 @@
-# Banger Collection
+# My C Collection
 
-> **Warning**: Poor and untested code ahead!
+> **Warning**: Poor code ahead!
 
-A collection of various C programs that I did in class
+A collection of various C programs that I did in my computer science clas
