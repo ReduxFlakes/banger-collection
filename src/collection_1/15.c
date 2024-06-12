@@ -2,15 +2,15 @@
 
 main(void) {
 	int input;
-	printf("Introduza um numero ");
+	printf("Insert a number");
 	scanf("%d", &input);
 	if (input > 0) {
-		printf("O numero %d e positivo\n", input);
+		printf("The number %d is positive\n", input);
 		if (input > 20)
-			printf("O numero %d e maior que 20", input);
+			printf("The number %d is higher than 20", input);
 		else
-			printf("O numero %d e menor que 20", input);
+			printf("The number %d is lower than 20", input);
 	} else {
-		printf("O n�mero � negativo");
+		printf("The number is negative");
 	}	
 }

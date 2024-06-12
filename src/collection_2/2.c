@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-float altura_soma (float alt, float bs) {
+float height_sum (float alt, float bs) {
 	float area=0;
 	area=bs*alt/2;
 	return area;
 }
 
 main() {
-	float altura, base, soma;
-	printf("Introduza a altura");
-	scanf("%f", &altura);
-	printf("Introduza a base");
+	float height, base, sum;
+	printf("Insert the height");
+	scanf("%f", &height);
+	printf("Insert the base");
 	scanf("%f", &base);
-	soma=altura_soma(altura, base);
-	printf("O valor e %f", soma);
+	sum=height_sum(height, base);
+	printf("The value is %f", sum);
 }

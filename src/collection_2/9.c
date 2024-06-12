@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void escrevenum(int n, int m) {
+void outputNum(int n, int m) {
 	while(n<=m) {
 		printf("%d\n", n);
 		n++;
@@ -9,9 +9,9 @@ void escrevenum(int n, int m) {
 
 main(void) {
 	int n, m;
-	printf("Introduza o principio do intervalo");
+	printf("Insert a start value");
 	scanf("%d", &n);
-	printf("Introduza o fim do intervalo");
+	printf("insert an end value");
 	scanf("%d", &m);
-	escrevenum(n,m);
+	outputNum(n,m);
 }

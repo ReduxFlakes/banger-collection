@@ -11,7 +11,7 @@ void mult(int x) {
 
 main(void) {
 	int x, res;
-	printf("Introduza um numero");
+	printf("Insert a number");
 	scanf("%d", &x);
 	mult(x);
 }

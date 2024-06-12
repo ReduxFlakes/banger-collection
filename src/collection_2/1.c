@@ -2,11 +2,11 @@
 
 main(void) {
 	int input1, input2, input3, box1, box2;
-	printf("Introduza um numero inteiro");
+	printf("Insert an integer");
 	scanf("%d", &input1);
-	printf("Introduza um numero inteiro");
+	printf("Insert an integer");
 	scanf("%d", &input2);
-	printf("Introduza um numero inteiro");
+	printf("Insert an integer");
 	scanf("%d", &input3);
 	// check for the lower number
 	if (input1 < input2 && input1 < input3)

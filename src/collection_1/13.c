@@ -2,11 +2,11 @@
 
 main(void) {
 	char letter;
-	printf("Introduza uma letra");
+	printf("Insert a letter");
 	scanf("%c", letter);
 	if (letter = "a" || "e" || "i" || "o" || "u") {
-		printf("%c e uma vogal", letter);
+		printf("%c is a vowel", letter);
 	} else {
-		printf("%c e uma consoante", letter);
+		printf("%c is a consonant", letter);
 	} 
 }

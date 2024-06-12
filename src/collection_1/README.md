@@ -1,3 +1,3 @@
 # Collection 1
 
-Contains random and simple programs mostly about math and output programs.
+Contains simple programs mostly about basic math operations, using user's input and showing output.

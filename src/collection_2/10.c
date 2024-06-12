@@ -2,15 +2,15 @@
 
 int a, b;
 
-void le2num() {
-	printf("Introduza um numero");
+void read2num() {
+	printf("Insert a num");
 	scanf("%d", &a);
-	printf("Introduza um numero");
+	printf("Insert a num");
 	scanf("%d", &b);
 }
 
 main(void) {
-	le2num();
+	read2num();
 	printf("a = %d\n", a);
 	printf("b = %d\n", b);
 }

@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 main(void) {
-	float dist, comb, cons;
-	printf("Introduza a distancia");
+	float dist, fuel, cons;
+	printf("Distance");
 	scanf("%f", &dist);
-	printf("Introduza o combustivel");
-	scanf("%f", &comb);
-	cons = (comb/dist)*100;
-	printf("O consumo e de: %f", cons);
+	printf("Fuel");
+	scanf("%f", &fuel);
+	cons = (fuel/dist)*100;
+	printf("The consumption is of: %f", cons);
 }

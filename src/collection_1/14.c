@@ -2,31 +2,37 @@
 
 main(void) {
 	int input;
-	printf("Introduza o numero de um mes ");
+	printf("Insert a number of a month (1 - 12)");
 	scanf("%d", &input);
-	// if else hell
+	/* if else hell
+	switch(input) {
+		case: 1
+			printf("January");
+			break;
+		...
+	}*/
 	if (input == 1) 
-		printf("Janeiro");
+		printf("Januray");
 	else if (input == 2)
-		printf("Fevereiro");
+		printf("February");
 	else if (input == 3)
-		printf("Marco");
+		printf("March");
 	else if (input == 4)
-		printf("Abril");
+		printf("April");
 	else if (input == 5)
-		printf("Maio");
+		printf("May");
 	else if (input == 6)
-		printf("Junho");
+		printf("June");
 	else if (input == 7)
-		printf("Julho");
+		printf("July");
 	else if (input == 8)
-		printf("Agosto");
+		printf("Agust");
 	else if (input == 9)
-		printf("Setembro");
+		printf("September");
 	else if (input == 10)
-		printf("Outubro");
+		printf("October");
 	else if (input == 11)
-		printf("Novembro");
+		printf("November");
 	else if (input == 12)
-		printf("Dezembro");
+		printf("December");
 }

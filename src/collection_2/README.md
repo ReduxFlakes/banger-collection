@@ -1,3 +1,3 @@
 # Collection 2
 
-Different from collection 2, this collection comes with more complex programs this is also where I learned about functions.
+Different from collection 2, this collection has more complex programs that now include functions.

@@ -3,15 +3,15 @@
 
 main(void) {
 	int age;
-	printf("Introduza a idade");
+	printf("Insert an age");
 	scanf("%d", &age);
 	if (age>=10 && age<=14) {
-		printf("Infantil");
+		printf("Infant");
 	}
 	else if (age>=15 && age<=17) {
-		printf("Juvenil");
+		printf("Juvenile");
 	}
 	else if (age>=15 && age<=17) {
-		printf("Adulto");
+		printf("Adult");
 	}
 }

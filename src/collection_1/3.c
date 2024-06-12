@@ -2,11 +2,11 @@
 
 main(void) {
 	int a, b;
-	float soma, media;
-	printf("Introduza dois numeros");
+	float sum, avg;
+	printf("Insert two numbers");
 	scanf("%d", &a);
 	scanf("%d", &b);
-	soma = a+b;
-	media = soma/2;
-	printf("A media e: %f", media);
+	sum = a+b;
+	avg = sum/2;
+	printf("The average is: %f", avg);
 }

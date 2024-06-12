@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int maior2num (int a, int b) {
+int high2num (int a, int b) {
 	if (a > b)
 		return a;
 	else
@@ -9,9 +9,9 @@ int maior2num (int a, int b) {
 
 main(void) {
 	int a, b;
-	printf("Introduza um n�mero");
+	printf("Insert a number");
 	scanf("%d", &a);
-	printf("Introduza um n�mero");
+	printf("Insert a number");
 	scanf("%d", &b);
-	printf("%d", maior2num(a, b));
+	printf("%d", high2num(a, b));
 }

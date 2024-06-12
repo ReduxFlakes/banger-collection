@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-void impar(int n) {
+void isEvenOdd(int n) {
 	if (n%2==0)
-		printf("Par");
+		printf("Even");
 	else
-		printf("Impar");
+		printf("Odd");
 }
 
 main(void) {
 	int n;
-	printf("Introduza um numero");
+	printf("Insert a number");
 	scanf("%d", &n);
-	impar(n);
+	isEvenOdd(n);
 }
 

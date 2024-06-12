@@ -1,38 +1,38 @@
 #include <stdio.h>
 
-int a, b, soma=0, i, menor, maior;
+int a, b, sum=0, i, low, high;
 
-void obter_dados() {
-	printf("Introduza um numero");
+void getData() {
+	printf("Insert a number");
 	scanf("%d", &a);
-	printf("Introduza um numero");
+	printf("Insert a number");
 	scanf("%d", &b);
 }
 
-void avaliar_menor_maior() {
+void getHigherLower() {
 	if(a < b) {
-		menor=a;
-		maior=b;
+		low=a;
+		high=b;
 	} else {
-		menor=b;
-		maior=a;
+		low=b;
+		high=a;
 	}
 }
 
-int soma_par() {
-	for(i=menor;i<=maior;i++)
+int sumPair() {
+	for(i=low;i<=high;i++)
 		if(i%2==0)
-			soma=soma+i;
+			sum=sum+i;
 }
 
-int resultado() {
-	printf("Soma = %d", soma);
+int result() {
+	printf("sum = %d", sum);
 }
 
 main(void) {
-	int menor, maior;
-	obter_dados();
-	avaliar_menor_maior();
-	soma_par();
-	resultado();
+	int low, high;
+	getData();
+	getHigherLower();
+	sumPair();
+	result();
 }

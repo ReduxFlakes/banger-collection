@@ -3,11 +3,11 @@
 
 main(void) {
 	int a, b, c;
-	printf("Introduza um numero");
+	printf("Insert a number");
 	scanf("%d", &a);
-	printf("Introduza um numero");
+	printf("Insert a number");
 	scanf("%d", &b);
-	printf("Introduza um numero");
+	printf("Insert a number");
 	scanf("%d", &c);
 	printf("%d + %d * %d = %d\n", a, b, c, a+b*c);
 	printf("%d + %d * %d = %d\n", a, b, c, a+b/c);
